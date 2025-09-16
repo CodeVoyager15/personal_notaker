@@ -27,21 +27,7 @@
 - **[go-kit/kit](https://github.com/go-kit/kit):** Go kit is a programming toolkit for building microservices (or elegant monoliths) in Go. We solve common problems in distributed systems and application architecture so you can focus on delivering business value.
 - **[todomvc](https://github.com/tastejs/todomvc):** Helping you select an MV* framework
 
-## Motivation
-
-I use [go-kit/kit](https://github.com/go-kit/kit)(microservices toolkit) to build business project and run on Kubernetes and Istio. I also to give few talks about How i use gokit
- - [GoPherCon 2020 TW: 如何透過 Go-kit 快速搭建微服務架構應用程式實戰 ｜ KaiChu](https://kaichu.io/posts/gokit-engineering-operation/)
- - [GDG Cloud Taipei meetup #50 - Build go kit microservices at kubernete…](https://www2.slideshare.net/cagechung/gdg-cloud-taipei-meetup-50-build-go-kit-microservices-at-kubernetes-with-ease-206252668)
-- [GDG Devfest 2019 - Build go kit microservices at kubernetes with ease](https://www2.slideshare.net/cagechung/gdg-devfest-2019-build-go-kit-microservices-at-kubernetes-with-ease)
-- [cage1016/gokit-workshop](https://github.com/cage1016/gokit-workshop)
-
-Go kit microservices toolkit include many microservices components itself (auth, circuitbreaker, ratelimit etcs.). We build microservices application and deploy to Kubernetes. We could drop those microservices components out with Service Mesh soluation (Istion Envoy proxy) and keep single microservice core business logic clear without any infra codes.
-
-This demo project is [todomvc/gokit-todo-frontend](https://github.com/cage1016/gokit-todo-frontend) backend API implemented by gokit microservice tookit with best practice by myself.
-
 ## Goals
-- **Project**: quick start a new microservice by toolchain [cage1016/gk](https://github.com/cage1016/gk/tree/feature/gokitconsulk8sistio). Team member could follow same guideline to develop microservice quickly.
-  - project layout
 - **Testing**: how to write `unit` test with table test `go-sqlmock` and `gomock`. `integration` test, `e2e` test with `TestMain` and `docker-compose`
 - **DevOps**: setup CI/CD workflow to increase devops lifecycle
   - skaffold
