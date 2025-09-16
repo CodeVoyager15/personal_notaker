@@ -138,7 +138,3 @@ this demo support `docker-compose` or `nginx-ingress` and `istio`
     ```sh
     make test-e2e
     ```
-## License
-
-Copyright © 2020 [kaichu.io](https://kaichu.io/).<br />
-This project is [MIT](https://github.com/cage1016/gokit-todo/blob/master/LICENSE) licensed.
